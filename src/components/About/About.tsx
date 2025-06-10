@@ -34,12 +34,12 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
               className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight"
             >
               Welcome to{" "}
-              <span className="text-orange-500 bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text">
+              <span className="text-green-400 bg-gradient-to-r from-green-200 to-green-300 bg-clip-text">
                 Seifac
               </span>
             </h2>
 
-            <div className="w-20 h-1 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full" />
+            <div className="w-20 h-1 bg-gradient-to-r from-green-200 to-green-400 rounded-full" />
           </div>
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -50,7 +50,7 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
               PP & PS products.
             </p>
 
-            <blockquote className="border-l-4 border-orange-400 pl-6 italic text-gray-600 bg-gray-50 p-4 rounded-r-lg">
+            <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-600 bg-gray-50 p-4 rounded-r-lg">
               "7seas Impex works by the principle that is dedicated its resource
               and capabilities towards keeping its customer ahead by being a
               reliable & punctual supplier & transshipment partner."
@@ -66,10 +66,10 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
 
           {/* Call to Action */}
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-lg font-medium hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+            <button className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-lg font-medium hover:from-green-600 hover:to-green-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
               Learn More
             </button>
-            <button className="border-2 border-orange-500 text-orange-600 px-6 py-3 rounded-lg font-medium hover:bg-orange-500 hover:text-white transition-all duration-200">
+            <button className="border-2 border-green-500 text-green-600 px-6 py-3 rounded-lg font-medium hover:bg-green-500 hover:text-white transition-all duration-200">
               Contact Us
             </button>
           </div>
