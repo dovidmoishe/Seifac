@@ -1,8 +1,5 @@
 import Image from "next/image"
 import { Card, CardTitle, CardHeader, CardContent } from "@/components/ui/card"
-
-type Props = {}
-
 const products = [
   {
     id: 1,
@@ -26,7 +23,7 @@ const products = [
   },
 ]
 
-const Products = (props: Props) => {
+const Products = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="font-bold text-3xl text-center mb-8 text-gray-800">Our Products</h1>

@@ -7,9 +7,6 @@ import {
   SelectItem,
   SelectValue,
 } from "@/components/ui/select";
-
-type Props = {};
-
 type NavItem = {
   name: string | React.ReactElement;
   id: number;
@@ -54,7 +51,7 @@ const items: NavItem[] = [
   },
 ];
 
-const NavBar = (props: Props) => {
+const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

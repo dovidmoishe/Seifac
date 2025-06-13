@@ -2,9 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
-type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div>
         <div className="flex flex-col items-center md:flex-row justify-between m-10">

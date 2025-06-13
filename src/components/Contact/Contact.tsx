@@ -3,15 +3,11 @@ import { Card } from "../ui/card";
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
-type Props = {};
-
 const MapComponent: React.FC<{ className: string }> = ({
   className,
 }: {
   className: string;
 }) => {
-  const location = "New York City"; // Change this to your desired location
-  const encodedLocation = encodeURIComponent(location);
 
   return (
     <div style={{ width: "100%", height: "400px" }} className={className}>
@@ -29,7 +25,7 @@ const MapComponent: React.FC<{ className: string }> = ({
   );
 };
 
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <div>
       <div className="flex flex-col items-center">
@@ -54,7 +50,7 @@ const Contact = (props: Props) => {
               className="mb-4"
             />
             <p>
-              7Seas Impex, 316-Shree Mahalaxmi Complex, Opp. Saint Mary's High
+              7Seas Impex, 316-Shree Mahalaxmi Complex, Opp. Saint Mary&apos;s High
               School, Kalawad Road, Rajkot - 360001 Gujarat, INDIA
             </p>
             <p className="flex flex-col items-center">

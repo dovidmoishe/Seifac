@@ -1,8 +1,6 @@
 import Layout from "@/components/Shared/layout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Head from "next/head";
-
 import { Poppins } from "next/font/google";
 
 const geistSans = Poppins({

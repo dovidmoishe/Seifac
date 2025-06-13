@@ -51,9 +51,9 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
             </p>
 
             <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-600 bg-gray-50 p-4 rounded-r-lg">
-              "7seas Impex works by the principle that is dedicated its resource
+            &quot;7seas Impex works by the principle that is dedicated its resource
               and capabilities towards keeping its customer ahead by being a
-              reliable & punctual supplier & transshipment partner."
+              reliable & punctual supplier & transshipment partner.&quot;
             </blockquote>
 
             <p>
