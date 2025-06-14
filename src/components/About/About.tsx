@@ -44,23 +44,24 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className="text-lg font-medium">
-              We are a manufacturer, supplier, exporter & importer of wide range
-              of Cotton & Nylon yarns, Electrical Transformers & Switch gears,
-              Aluminum foil & bottles, Tiles & Bathroom fittings and Disposable
-              PP & PS products.
+              We are a leading manufacturer and supplier specializing in premium hair extensions
+              from India and South East Asia, along with diverse business verticals including
+              Agriculture Solutions, Wines Supply, Medical Devices, Technology Products,
+              Bathroom Fittings, and PP & PS Disposables.
             </p>
 
             <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-600 bg-gray-50 p-4 rounded-r-lg">
-            &quot;7seas Impex works by the principle that is dedicated its resource
-              and capabilities towards keeping its customer ahead by being a
-              reliable & punctual supplier & transshipment partner.&quot;
+              &quot;Seifac sets the industry standard by owning and operating our overseas
+              factories and domestic operations, ensuring total control of quality from
+              sourcing to delivery, making us a reliable and punctual supplier & transshipment
+              partner.&quot;
             </blockquote>
 
             <p>
-              We are committed to delivering value for money to our global
-              customers. We strive to realize this everyday by setting highest
-              standards of products, services, reliability, safety, and cost
-              effectiveness in our industry.
+              Our hair extensions are unparalleled, featuring virgin hair with aligned cuticle
+              layers for natural movement and longevity. Beyond beauty, our agricultural
+              division provides comprehensive Farm ERP solutions, while our other divisions
+              maintain the highest standards of quality across international markets.
             </p>
           </div>
 

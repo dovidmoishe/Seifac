@@ -30,19 +30,9 @@ const items: NavItem[] = [
     link: "#about",
   },
   {
-    name: (
-      <Select>
-        <SelectTrigger className="w-full md:w-[180px]">
-          <SelectValue placeholder="Products" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="all">All Products</SelectItem>
-          <SelectItem value="yarn">Yarn</SelectItem>
-          <SelectItem value="cotton">Cotton</SelectItem>
-        </SelectContent>
-      </Select>
-    ),
+    name: "All Products",
     id: 3,
+    link: "#products",
   },
   {
     name: "Contact Us",
