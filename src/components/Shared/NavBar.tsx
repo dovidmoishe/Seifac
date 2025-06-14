@@ -1,12 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import {
-  Select,
-  SelectTrigger,
-  SelectContent,
-  SelectItem,
-  SelectValue,
-} from "@/components/ui/select";
+
 type NavItem = {
   name: string | React.ReactElement;
   id: number;
