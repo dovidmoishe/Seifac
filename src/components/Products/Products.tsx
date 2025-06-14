@@ -12,7 +12,7 @@ const products = [
 		id: 2,
 		name: "Lace Front Wigs",
 		image:
-			"https://images.unsplash.com/photo-1566726557393-64107b7857e7?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
+			"https://images.unsplash.com/photo-1605980776566-0486c3ac7617?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
 		description: "High-quality lace front wigs for a natural hairline and comfortable fit",
 	},
 	{
@@ -40,7 +40,7 @@ const products = [
 		id: 6,
 		name: "Tape Extensions",
 		image:
-			"https://images.unsplash.com/photo-1595534005229-68f332bec85c?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
+			"https://images.unsplash.com/photo-1605980776566-0486c3ac7617?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
 		description: "Professional-grade tape-in hair extensions for seamless integration",
 	},
 ]

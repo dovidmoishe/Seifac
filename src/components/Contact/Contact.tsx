@@ -53,7 +53,7 @@ const Contact = () => {
               7Seas Impex, 316-Shree Mahalaxmi Complex, Opp. Saint Mary&apos;s High
               School, Kalawad Road, Rajkot - 360001 Gujarat, INDIA
             </p>
-            <p className="flex flex-col items-center">
+            <p className="flex flex-col">
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-green-500" />
                 <span className="mt-2">Phone: +91 98765 43210</span>
