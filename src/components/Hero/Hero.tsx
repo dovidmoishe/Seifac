@@ -14,7 +14,6 @@ export function Hero() {
 
   return (
     <div className="relative h-[40rem] w-full overflow-hidden">
-      {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
