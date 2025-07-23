@@ -1,8 +1,6 @@
 "use client";
 import { motion } from "motion/react";
 import React from "react";
-import Link from "next/link";
-
 export function Hero() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
