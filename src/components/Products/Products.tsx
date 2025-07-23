@@ -6,51 +6,63 @@ const products = [
 		name: "Virgin Hair",
 		image:
 			"https://images.unsplash.com/photo-1605980776566-0486c3ac7617?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
-		description: "Premium quality 100% virgin human hair, unprocessed and natural",
+		description: "Premium quality 100% virgin human hair with cuticles aligned from root to end, guaranteeing natural wave and fullness.",
 	},
 	{
 		id: 2,
 		name: "Lace Front Wigs",
 		image:
-			"https://images.unsplash.com/photo-1605980776566-0486c3ac7617?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
-		description: "High-quality lace front wigs for a natural hairline and comfortable fit",
+			"https://images.unsplash.com/photo-1566726557393-64107b7857e7?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
+		description: "High-quality lace front wigs for a natural hairline, made with our signature Temple-sourced hair.",
 	},
 	{
 		id: 3,
 		name: "Clip-in Extensions",
 		image:
 			"https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
-		description: "Easy to apply clip-in hair extensions for instant length and volume",
+		description: "Easy to apply clip-in hair extensions for instant length and volume, can be styled and treated like natural hair.",
 	},
 	{
 		id: 4,
 		name: "Closures & Frontals",
 		image:
 			"https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
-		description: "Premium closures and frontals for a flawless, natural-looking finish",
+		description: "Premium closures and frontals for a flawless, natural-looking finish, reusable for up to a year.",
 	},
 	{
 		id: 5,
-		name: "Braiding Hair",
+		name: "Ponytails & Braiding Hair",
 		image:
 			"https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
-		description: "Quality synthetic braiding hair for all your styling needs",
+		description: "Quality ponytails and braiding hair for versatile styling options, perfect for all ethnicities and hair types.",
 	},
 	{
 		id: 6,
-		name: "Tape Extensions",
+		name: "Tape & Weave Extensions",
 		image:
-			"https://images.unsplash.com/photo-1605980776566-0486c3ac7617?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
-		description: "Professional-grade tape-in hair extensions for seamless integration",
+			"https://images.unsplash.com/photo-1595534005229-68f332bec85c?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3",
+		description: "Professional-grade tape-in and weave extensions, made with our light-weight, supple virgin hair for natural flow.",
 	},
 ]
 
 const Products = () => {
 	return (
-		<div className="container mx-auto px-4 py-8">
-			<h1 className="font-bold text-3xl text-center mb-8 text-gray-800">
-				Our Products
+		<div id="products" className="container mx-auto px-4 py-8">
+			<h1 className="font-bold text-3xl text-center mb-4 text-gray-800">
+				Our Premium Hair Collections
 			</h1>
+			<div className="text-center max-w-3xl mx-auto mb-8">
+				<p className="text-gray-600 mb-4">
+					Seifac&apos;s hair extensions are unparalleled because the virgin hair used has cuticle layers
+					facing the same direction from root to end. This ensures the extensions behave exactly like
+					your own hair, guaranteeing natural wave, fullness, and luster.
+				</p>
+				<p className="text-gray-600">
+					Our hair can be washed, blow dried, curled, flat ironed, colored and permed while 
+					maintaining its original beauty for up to a year. Our exclusive collections cater to 
+					people of all ages, ethnicities and hair types.
+				</p>
+			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 				{products.map((product, index) => (
 					<Card

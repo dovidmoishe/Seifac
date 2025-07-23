@@ -59,9 +59,16 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
 
             <p>
               Our hair extensions are unparalleled, featuring virgin hair with aligned cuticle
-              layers for natural movement and longevity. Beyond beauty, our agricultural
-              division provides comprehensive Farm ERP solutions, while our other divisions
-              maintain the highest standards of quality across international markets.
+              layers for natural movement and longevity. Our hair is light in weight and supple,
+              giving it natural flow and movement. Chemically free, it enhances the length, color,
+              and texture of natural hair, creating a flawless extension style that can be reused
+              for up to a year.
+            </p>
+
+            <p>
+              Beyond beauty, our agricultural division provides comprehensive Farm ERP solutions,
+              Extension & Advisory Services, Farm Management, and Produce Sales, while our other
+              divisions maintain the highest standards of quality across international markets.
             </p>
           </div>
 
