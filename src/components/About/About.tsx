@@ -15,8 +15,8 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
         {/* Image Section */}
         <div className="relative overflow-hidden rounded-2xl shadow-2xl max-w-md">
           <Image
-            src="https://images.unsplash.com/photo-1659262673818-d7b419542d16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Modern industrial facility showcasing Seifac's manufacturing capabilities"
+            src="https://images.unsplash.com/photo-1659262673818-d7b419542d16?q=80&w=1887&auto=format&fit=crop"
+            alt="Seifac - Empowering Innovation"
             width={400}
             height={300}
             className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
@@ -44,31 +44,27 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className="text-lg font-medium">
-              We are a leading manufacturer and supplier specializing in premium hair extensions
-              from India and South East Asia, along with diverse business verticals including
-              Agriculture Solutions, Wines Supply, Medical Devices, Technology Products,
-              Bathroom Fittings, and PP & PS Disposables.
+              Seifac is a multidivisional enterprise delivering high-quality products,
+              services, and digital solutions across agriculture, healthcare, technology,
+              lifestyle, and beauty sectors in Nigeria and beyond.
             </p>
 
             <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-600 bg-gray-50 p-4 rounded-r-lg">
-              &quot;Seifac sets the industry standard by owning and operating our overseas
-              factories and domestic operations, ensuring total control of quality from
-              sourcing to delivery, making us a reliable and punctual supplier & transshipment
-              partner.&quot;
+              &quot;From empowering farmers with Farm ERP tools to importing premium wines and
+              supplying certified medical devices, Seifac operates at the intersection of
+              innovation, reliability, and social impact.&quot;
             </blockquote>
 
             <p>
-              Our hair extensions are unparalleled, featuring virgin hair with aligned cuticle
-              layers for natural movement and longevity. Our hair is light in weight and supple,
-              giving it natural flow and movement. Chemically free, it enhances the length, color,
-              and texture of natural hair, creating a flawless extension style that can be reused
-              for up to a year.
+              Our divisions span Agribusiness, Medical Devices, Tech Products, Hair Extensions,
+              Wine Importation, Bathroom Fittings, and Disposable Supplies—each designed to meet
+              the evolving needs of individuals, institutions, and governments.
             </p>
 
             <p>
-              Beyond beauty, our agricultural division provides comprehensive Farm ERP solutions,
-              Extension & Advisory Services, Farm Management, and Produce Sales, while our other
-              divisions maintain the highest standards of quality across international markets.
+              Whether it's traceable farm operations, imported sanitary wares, private label hair
+              extensions, or FDA-compliant disposables, Seifac brings global standards to the local
+              market—backed by logistics, partnerships, and end-to-end quality control.
             </p>
           </div>
 

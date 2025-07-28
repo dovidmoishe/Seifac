@@ -75,7 +75,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-gray-900 mb-1">Address</h4>
                       <p className="text-gray-600">
-                        Abuja <br />
+                        FCT, Abuja <br />
                         Nigeria
                       </p>
                     </div>
