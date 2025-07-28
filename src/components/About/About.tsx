@@ -70,9 +70,9 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
 
           {/* Call to Action */}
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-lg font-medium hover:from-green-600 hover:to-green-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+            {/* <button className="bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-lg font-medium hover:from-green-600 hover:to-green-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
               Learn More
-            </button>
+            </button> */}
             <button className="border-2 border-green-500 text-green-600 px-6 py-3 rounded-lg font-medium hover:bg-green-500 hover:text-white transition-all duration-200">
               Contact Us
             </button>
