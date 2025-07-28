@@ -15,7 +15,7 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
         {/* Image Section */}
         <div className="relative overflow-hidden rounded-2xl shadow-2xl max-w-md">
           <Image
-            src="https://images.unsplash.com/photo-1659262673818-d7b419542d16?q=80&w=1887&auto=format&fit=crop"
+            src="/images/frame.jpg"
             alt="Seifac - Empowering Innovation"
             width={400}
             height={300}
