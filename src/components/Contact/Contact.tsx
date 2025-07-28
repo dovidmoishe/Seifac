@@ -68,20 +68,18 @@ const Contact = () => {
                 </div>
 
                 <div className="space-y-6">
-                  {/* <div className="flex items-start">
+                  <div className="flex items-start">
                     <div className="mt-1 bg-white p-2 rounded-full mr-4 shadow-sm">
                       <FaMapMarkerAlt className="text-green-600 text-lg" />
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-900 mb-1">Address</h4>
                       <p className="text-gray-600">
-                        7Seas Impex, 316-Shree Mahalaxmi Complex, <br />
-                        Opp. Saint Mary&apos;s High School, <br />
-                        Kalawad Road, Rajkot - 360001 <br />
-                        Gujarat, INDIA
+                        Abuja <br />
+                        Nigeria
                       </p>
                     </div>
-                  </div> */}
+                  </div> 
 
                   <div className="flex items-start">
                     <div className="mt-1 bg-white p-2 rounded-full mr-4 shadow-sm">
