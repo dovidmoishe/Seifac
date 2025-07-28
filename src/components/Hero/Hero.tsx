@@ -61,7 +61,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.9, duration: 0.6 }}
             >
-              At Seifac, we’re more than a business — we’re a multidivisional powerhouse dedicated to delivering quality products, services, and solutions across key sectors that drive modern living.
+              At Seifac, we’re more than a business — we are a multidivisional powerhouse dedicated to delivering quality products, services, and solutions across key sectors that drive modern living.
             </motion.p>
           </motion.div>
 
