@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="flex items-start">
+                  {/* <div className="flex items-start">
                     <div className="mt-1 bg-white p-2 rounded-full mr-4 shadow-sm">
                       <FaMapMarkerAlt className="text-green-600 text-lg" />
                     </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                         Gujarat, INDIA
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="flex items-start">
                     <div className="mt-1 bg-white p-2 rounded-full mr-4 shadow-sm">
@@ -89,7 +89,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-900 mb-1">Phone</h4>
-                      <p className="text-gray-600">+91 98765 43210</p>
+                      <p className="text-gray-600">+2348132385944</p>
                     </div>
                   </div>
 
@@ -99,7 +99,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-900 mb-1">Email</h4>
-                      <p className="text-gray-600">seifac@gmail.com</p>
+                      <p className="text-gray-600">disposables@seifac.ng</p>
                     </div>
                   </div>
 
@@ -120,7 +120,7 @@ const Contact = () => {
                     {[FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn].map((Icon, i) => (
                       <motion.a
                         key={i}
-                        href="#"
+                        href="@SeifacDisposable"
                         className="bg-white h-10 w-10 rounded-full flex items-center justify-center shadow-sm hover:shadow-md transition-all"
                         whileHover={{ y: -3, scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}

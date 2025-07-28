@@ -44,14 +44,14 @@ export function Hero() {
               animate={{ y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
-              Premium Hair Extensions & <br />
+              Empowering Innovation Across Agriculture, Technology, Healthcare <br />
               <motion.span
                 className="text-green-500"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.7, duration: 0.6 }}
               >
-                Business Solutions
+                & Lifestyle
               </motion.span>
             </motion.h1>
 
@@ -61,8 +61,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.9, duration: 0.6 }}
             >
-              Unparalleled quality virgin hair with cuticles aligned from root to end,
-              guaranteed to behave exactly like your own hair.
+              At Seifac, we’re more than a business — we’re a multidivisional powerhouse dedicated to delivering quality products, services, and solutions across key sectors that drive modern living.
             </motion.p>
           </motion.div>
 
