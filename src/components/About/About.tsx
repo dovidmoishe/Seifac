@@ -62,7 +62,7 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
             </p>
 
             <p>
-              Whether it's traceable farm operations, imported sanitary wares, private label hair
+              Whether it&lsquo;s traceable farm operations, imported sanitary wares, private label hair
               extensions, or FDA-compliant disposables, Seifac brings global standards to the local
               market—backed by logistics, partnerships, and end-to-end quality control.
             </p>
