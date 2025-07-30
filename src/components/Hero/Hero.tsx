@@ -44,14 +44,14 @@ export function Hero() {
               animate={{ y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
-              Empowering Innovation Across Agriculture, Technology, Healthcare <br />
+              Agricultural Excellence &<br />
               <motion.span
                 className="text-green-500"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.7, duration: 0.6 }}
               >
-                & Lifestyle
+                Innovative Enterprise Solutions
               </motion.span>
             </motion.h1>
 
@@ -61,7 +61,9 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.9, duration: 0.6 }}
             >
-              At Seifac, we’re more than a business — we are a multidivisional powerhouse dedicated to delivering quality products, services, and solutions across key sectors that drive modern living.
+              At Seifac, we specialize in transforming agriculture through our comprehensive 
+              Farm ERP, Extension Advisory, and Farm Management services, while also providing 
+              quality solutions in technology, healthcare, and lifestyle sectors.
             </motion.p>
           </motion.div>
 

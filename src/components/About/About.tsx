@@ -44,20 +44,21 @@ const About: React.FC<AboutProps> = ({ className = "" }) => {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className="text-lg font-medium">
-              Seifac is a multidivisional enterprise delivering high-quality products,
-              services, and digital solutions across agriculture, healthcare, technology,
-              lifestyle, and beauty sectors in Nigeria and beyond.
+              Seifac is an agricultural-focused enterprise that leads in Farm ERP, Extension Advisory,{" "}
+              and Farm Management services across Nigeria. While agriculture is our core strength,{" "}
+              we also deliver quality products and services in healthcare, technology,{" "}
+              lifestyle, and beauty sectors.
             </p>
 
             <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-600 bg-gray-50 p-4 rounded-r-lg">
-              &quot;From empowering farmers with Farm ERP tools to importing premium wines and
-              supplying certified medical devices, Seifac operates at the intersection of
-              innovation, reliability, and social impact.&quot;
+              &quot;Our agricultural solutions empower farmers with cutting-edge Farm ERP tools, expert advisory services,{" "}
+              and professional farm management - revolutionizing farming practices while driving sustainable growth{" "}
+              and productivity.&quot;
             </blockquote>
 
             <p>
-              Our divisions span Agribusiness, Medical Devices, Tech Products, Hair Extensions,
-              Wine Importation, Bathroom Fittings, and Disposable Supplies—each designed to meet
+              Our agricultural division spearheads our operations, while our supplementary divisions include Medical Devices,{" "}
+              Tech Products, Hair Extensions, Wine Importation, Bathroom Fittings, and Disposable Supplies—each designed to meet
               the evolving needs of individuals, institutions, and governments.
             </p>
 

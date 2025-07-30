@@ -67,7 +67,7 @@ export const ImagesSlider = ({
     window.addEventListener("keydown", handleKeyDown);
 
     // autoplay
-    let interval: NodeJS.Timeout
+    let interval: NodeJS.Timeout;
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
@@ -78,7 +78,7 @@ export const ImagesSlider = ({
       window.removeEventListener("keydown", handleKeyDown);
       clearInterval(interval);
     };
-  }, []);
+  }, [handleNext, handlePrevious, autoplay]);
 
   const slideVariants = {
     initial: {
